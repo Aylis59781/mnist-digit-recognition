@@ -120,8 +120,6 @@ Code snippet
 📌 Author
 
 Mir Nazmul Ali
-Undergraduate Student, Dept. of Computer Science & Engineering
-European University of Bangladesh
 Research focus: Deep Learning, Computer Vision, Edge AI
 
 
