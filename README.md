@@ -64,51 +64,67 @@ text
 
 ---
 
-## 🔧 How to Run
+# 🔧 How to Run
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/mnist-digit-recognition.git
+git clone [https://github.com/Aylis59781/mnist-digit-recognition.git](https://github.com/Aylis59781/mnist-digit-recognition.git)
 cd mnist-digit-recognition
+
+
 2. Install dependencies
-bash
+
+Bash
 pip install -r requirements.txt
+
+
 3. Train the model
-bash
+
+Bash
 python train.py
+
 4. Run inference on a single image
-bash
+
+Bash
 python predict.py path/to/digit_image.png
+
 The system automatically inverts the image if the background is light (adaptive preprocessing).
 
-## 🔮 Future Improvements
-- Implement attention mechanism for better feature extraction
-- Deploy model as a web app using Streamlit or Gradio
-- Extend to multi-language handwritten digit recognition
-- Use model quantization for edge device deployment
 
-## 📚 Learning Resources
-- [MNIST Dataset](http://yann.lecun.com/exdb/mnist/)
-- [PyTorch Documentation](https://pytorch.org/docs/)
-- [Convolutional Neural Networks (CS231n)](https://cs231n.github.io/)
+🔮 Future Improvements
 
-## 📄 Citation
-```bibtex
+Implement attention mechanism for better feature extraction
+Deploy model as a web app using Streamlit or Gradio
+Extend to multi-language handwritten digit recognition
+Use model quantization for edge device deployment
+
+
+📚 Learning Resources
+
+MNIST Dataset
+PyTorch Documentation
+Convolutional Neural Networks (CS231n)
+
+
+📄 Citation
+
+Code snippet
 @software{Mir_Nazmul_Ali_MNIST_CNN_2026,
   author = {Mir Nazmul Ali},
   title = {Handwritten Digit Recognition using CNN on MNIST},
   year = {2026},
   url = {[https://github.com/Aylis59781/mnist-digit-recognition](https://github.com/Aylis59781/mnist-digit-recognition)}
 }
+
+
 📌 Author
+
 Mir Nazmul Ali
-
 Undergraduate Student, Dept. of Computer Science & Engineering
-
 European University of Bangladesh
-
 Research focus: Deep Learning, Computer Vision, Edge AI
 
-📜 License
-Distributed under the MIT License. See LICENSE for more information.
 
+📜 License
+
+Distributed under the MIT License. See LICENSE for more information.
