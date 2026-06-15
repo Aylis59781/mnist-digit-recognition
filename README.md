@@ -81,34 +81,32 @@ bash
 python predict.py path/to/digit_image.png
 The system automatically inverts the image if the background is light (adaptive preprocessing).
 
-🔮 Future Improvements
-Implement attention mechanism for better feature extraction
+## 🔮 Future Improvements
+- Implement attention mechanism for better feature extraction
+- Deploy model as a web app using Streamlit or Gradio
+- Extend to multi-language handwritten digit recognition
+- Use model quantization for edge device deployment
 
-Deploy model as a web app using Streamlit or Gradio
+## 📚 Learning Resources
+- [MNIST Dataset](http://yann.lecun.com/exdb/mnist/)
+- [PyTorch Documentation](https://pytorch.org/docs/)
+- [Convolutional Neural Networks (CS231n)](https://cs231n.github.io/)
 
-Extend to multi‑language handwritten digit recognition
-
-Use model quantization for edge device deployment
-
-📚 Learning Resources
-MNIST Dataset
-
-PyTorch Documentation
-
-Convolutional Neural Networks (CS231n)
-
-📄 Citation
-bibtex
+## 📄 Citation
+```bibtex
 @software{Mir_Nazmul_Ali_MNIST_CNN_2026,
   author = {Mir Nazmul Ali},
   title = {Handwritten Digit Recognition using CNN on MNIST},
   year = {2026},
-  url = {https://github.com/your-username/mnist-digit-recognition}
+  url = {[https://github.com/Aylis59781/mnist-digit-recognition](https://github.com/Aylis59781/mnist-digit-recognition)}
 }
 📌 Author
 Mir Nazmul Ali
+
 Undergraduate Student, Dept. of Computer Science & Engineering
+
 European University of Bangladesh
+
 Research focus: Deep Learning, Computer Vision, Edge AI
 
 📜 License
