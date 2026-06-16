@@ -1,4 +1,4 @@
-# ✍️ Robust Handwritten Digit Recognition using CNN (MNIST)
+# Robust Handwritten Digit Recognition using CNN (MNIST)
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
@@ -8,7 +8,7 @@ A production-ready CNN built from scratch using PyTorch to classify handwritten 
 
 ---
 
-## 🚀 Features
+## Features
 
 - Custom CNN with 2 convolutional blocks + 2 fully connected layers
 - Batch normalization and dropout for regularization
@@ -20,7 +20,7 @@ A production-ready CNN built from scratch using PyTorch to classify handwritten 
 
 ---
 
-## 📊 Results
+## Results
 
 | Metric                    | Value      |
 |---------------------------|------------|
@@ -91,7 +91,7 @@ python predict.py path/to/digit_image.png
 The system automatically inverts the image if the background is light (adaptive preprocessing).
 
 
-🔮 Future Improvements
+Future Improvements
 
 Implement attention mechanism for better feature extraction
 Deploy model as a web app using Streamlit or Gradio
@@ -99,7 +99,7 @@ Extend to multi-language handwritten digit recognition
 Use model quantization for edge device deployment
 
 
-📚 Learning Resources
+Learning Resources
 
 MNIST Dataset
 PyTorch Documentation
